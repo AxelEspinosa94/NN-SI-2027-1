@@ -1,0 +1,31 @@
+# Python 3.12 — versiones mínimas con wheels oficiales para 3.12
+# --- Datos y preprocesamiento ---
+numpy>=1.26,<3
+pandas>=2.1,<3
+scikit-learn>=1.3
+scipy>=1.11
+
+# --- Lectura de archivos ---
+openpyxl>=3.1      # .xlsx
+xlrd>=2.0          # .xls (formato viejo)
+
+# --- Visualización ---
+matplotlib>=3.8
+seaborn>=0.13
+
+# --- Redes neuronales (elige uno o ambos) ---
+torch>=2.2
+tensorflow>=2.16   # primera versión con soporte para 3.12
+
+# --- Utilidades ---
+tqdm>=4.66
+
+# --- Entorno de notebooks ---
+jupyterlab>=4.5,<5
+ipykernel>=6.29      # registra tu venv como kernel
+ipywidgets>=8.1      # barras de tqdm y widgets dentro de los notebooks
+
+# --- Formatting ---
+black==24.3.0
+isort==5.12.0
+flake8==7.0.0
